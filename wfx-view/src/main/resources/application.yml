@@ -1,0 +1,9 @@
+server:
+  port: 80
+spring:
+  application:
+    name: wfx-view
+eureka:
+  client:
+    service-url:
+      defalultZone: http://localhost:8761/eureka/
